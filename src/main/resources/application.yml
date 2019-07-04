@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: avenger-controle-restritivo-api
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:restritivos
+    username: u_restritivo
+    password: dsv_retritivo_123
+    platform: org.hibernate.dialect.H2Dialect
+
+server:
+  port: 8081
