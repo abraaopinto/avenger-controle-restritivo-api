@@ -13,7 +13,7 @@ import javax.persistence.Table;
 import com.avengercode.avenger.controle.retritivo.domain.enums.TipoPessoaEnum;
 
 /**
- * @author abraao
+ * @author Abraao Pinto
  * @size 2019-07-04
  * AvengersCode 
  */

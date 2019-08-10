@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import com.avengercode.avenger.controle.retritivo.domain.model.Pessoa;
 
 /**
- * @author abraao
+ * @author Abraao Pinto
  * @size 2019-07-04
  * AvengersCode 
  */
