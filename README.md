@@ -1,5 +1,6 @@
 # avenger-controle-restritivo-api
-API Rest - Para um sistema de controle de Restritivos (Contratos de creditos que possuem parcelas em atrasos acima das regras definidas).
+API Rest - Para um sistema de controle de Restritivos (Contratos de creditos que possuem parcelas em atrasos acima das regras definidas 
+e clientes impedidos de operar por outros motivos).
 
 ## Entidades
 - Pessoa
