@@ -21,6 +21,6 @@ e clientes impedidos de operar por outros motivos).
 - JDK 1.8 ou posterior
 - Maven 3.2+
 - Você também pode importar o código direto de uma IDE:
-  -- Spring Tool Suite (STS)
-  -- Eclipse
-  -- IntelliJ IDEA
+  - Spring Tool Suite (STS)
+  - Eclipse
+  - IntelliJ IDEA
