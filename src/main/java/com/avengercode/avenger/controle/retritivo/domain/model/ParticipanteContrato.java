@@ -5,7 +5,6 @@ package com.avengercode.avenger.controle.retritivo.domain.model;
 
 import java.io.Serializable;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
@@ -23,32 +22,19 @@ public class ParticipanteContrato implements Serializable  {
 	private static final long serialVersionUID = -4730383613480022142L;
 
 	@Id
-	@Column(name="NR_CONTRATO")
-	private String numeroContrato;
-	
-	@Id
-	@Column(name="ID_PESSOA")
-	private Long idPessoa;
+	private ParticipanteContratoPk idParticipanteContratoPK;
 	
 	@ManyToOne
 	private TipoParticipacao tipoPaticipacao;
 
-	public String getNumeroContrato() {
-		return numeroContrato;
+	public ParticipanteContratoPk getIdParticipanteContratoPk() {
+		return idParticipanteContratoPK;
 	}
-
-	public void setNumeroContrato(String numeroContrato) {
-		this.numeroContrato = numeroContrato;
+	
+	public void setIdParticipanteContratoPk(ParticipanteContratoPk idParticipanteContratoPk) {
+		this.idParticipanteContratoPK = idParticipanteContratoPk;
 	}
-
-	public Long getIdPessoa() {
-		return idPessoa;
-	}
-
-	public void setIdPessoa(Long idPessoa) {
-		this.idPessoa = idPessoa;
-	}
-
+	
 	public TipoParticipacao getTipoPaticipacao() {
 		return tipoPaticipacao;
 	}
@@ -56,5 +42,4 @@ public class ParticipanteContrato implements Serializable  {
 	public void setTipoPaticipacao(TipoParticipacao tipoPaticipacao) {
 		this.tipoPaticipacao = tipoPaticipacao;
 	}
-
 }
