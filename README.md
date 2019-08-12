@@ -13,4 +13,4 @@ API Rest - Para um sistema de controle de Restritivos (Contratos de creditos que
 - Atraso de parcela.
 - Pagamento de parcela em atraso.
 - Renegociação de contrato.
-- Pessoa impedidas por outro motivos.
+- Pessoas impedidas por outros motivos. [Cadastro CEIS](http://www.transparencia.gov.br/swagger-ui.html#!/Cadastro32Nacional32de32Empresas32Inid244neas32e32Suspensas3240CEIS41/ceisUsingGET_1)
