@@ -4,6 +4,7 @@
 package com.avengercode.avenger.controle.retritivo.domain.model;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
@@ -39,4 +40,21 @@ public class ParticipanteContratoPk implements Serializable{
 	public void setIdPessoa(Long idPessoa) {
 		this.idPessoa = idPessoa;
 	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(idPessoa, numeroContrato);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		ParticipanteContratoPk other = (ParticipanteContratoPk) obj;
+		return Objects.equals(idPessoa, other.idPessoa) && Objects.equals(numeroContrato, other.numeroContrato);
+	}	
 }
